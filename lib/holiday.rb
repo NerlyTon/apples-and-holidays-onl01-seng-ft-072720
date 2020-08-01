@@ -65,9 +65,8 @@ def all_supplies_in_holidays(holiday_hash)
   # etc.
  
   holiday_supplies.each do |season, data|
-    new_format = "#{season}: #{data}"
+    puts "#{season.join}: #{data.join}"
     end
-    new_format.join
 end
 
 def all_holidays_with_bbq(holiday_hash)
