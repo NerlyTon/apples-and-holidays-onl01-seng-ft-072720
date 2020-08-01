@@ -64,9 +64,7 @@ def all_supplies_in_holidays(holiday_hash)
   #   Fourth Of July: Fireworks, BBQ
   # etc.
   holiday_supplies.each do |season, data|
-    if season == winter
-    data.each do |holiday, supplies|
-      puts "#{holiday}: #{supplies}"
+    puts "#{season}: #{data}"
       
 #   # data.each do |holiday, supplies|
 #   #   if holiday == :winter 
