@@ -29,7 +29,7 @@ def add_supply_to_winter_holidays(holiday_hash, supply)
   
   holiday_supplies[:winter][:christmas] << ["Supply"]
   
-  holiday_supplies
+  holiday_supplies[:winter][:new_years] << ["Supply"]
 end
 
 
