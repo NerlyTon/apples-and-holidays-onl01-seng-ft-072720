@@ -65,7 +65,7 @@ def all_supplies_in_holidays(holiday_hash)
   # etc.
  
   holiday_supplies.each do |season, data|
-    "#{season}: #{data}".join
+    
    
 
   end
