@@ -59,6 +59,7 @@ holiday_supplies.each do |season, data|
   #   if holiday == :winter 
   #     supplies.each do |supply|
   #       puts "#{supply}"
+    end
      end
    end
 end
